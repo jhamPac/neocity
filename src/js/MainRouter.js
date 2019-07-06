@@ -12,7 +12,6 @@ export default function MainRouter() {
               <LandingPage />
             </Route>
           </Switch>
-        <Footer />
       </main>
     </Router>
   )
