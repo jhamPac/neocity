@@ -1,0 +1,19 @@
+{
+  "name": "neocity",
+  "version": "0.0.1",
+  "description": "🌇PHX - 2084",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhamPac/neocity.git"
+  },
+  "author": "?",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jhamPac/neocity/issues"
+  },
+  "homepage": "https://github.com/jhamPac/neocity#readme"
+}
