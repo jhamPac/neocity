@@ -63,5 +63,3 @@ typings/
 # misc
 dist
 cache
-.babelrc
-.postcssrc
