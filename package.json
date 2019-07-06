@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/jhamPac/neocity/issues"
   },
-  "homepage": "https://github.com/jhamPac/neocity#readme"
+  "homepage": "https://github.com/jhamPac/neocity#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "autoprefixer": "^9.6.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-router-dom": "^5.0.1"
+  }
 }
