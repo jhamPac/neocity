@@ -7,7 +7,13 @@
     "clean": "rm *.css && rm *.map && rm *.js",
     "build:fresh": "parcel build ./src/index.html --out-dir .",
     "build": "npm run clean && parcel build ./src/index.html --out-dir .",
+    "pretty": "prettier --write ./src/**/*.js",
     "start": "parcel ./src/index.html --port 9500"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run pretty"
+    }
   },
   "repository": {
     "type": "git",
@@ -24,6 +30,7 @@
     "@babel/preset-env": "^7.5.0",
     "@babel/preset-react": "^7.0.0",
     "autoprefixer": "^9.6.1",
+    "husky": "^3.0.0",
     "parcel-bundler": "^1.12.3",
     "prettier": "^1.18.2",
     "react": "^16.8.6",
