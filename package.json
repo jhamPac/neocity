@@ -4,7 +4,7 @@
   "description": "🌇PHX - 2084",
   "main": "index.html",
   "scripts": {
-    "clean": "rm *.css && rm *.map && rm *.js",
+    "clean": "rm *.map && rm *.js",
     "build:fresh": "parcel build ./src/index.html --out-dir .",
     "build": "npm run clean && parcel build ./src/index.html --out-dir .",
     "pretty": "prettier --write ./src/**/*.js",
