@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function LandingPage() {
   return (
-    <div>MONEY 💵 💴 💶 💷 is a social credit system</div>
+    <h1>MONEY 💵 💴 💶 💷 is a social credit system</h1>
 
   )
 }
