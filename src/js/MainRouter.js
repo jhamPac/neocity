@@ -1,11 +1,11 @@
-import React from 'react'
-import {HashRouter as Router, Route, Switch} from 'react-router-dom'
-import injectSheet from 'react-jss'
+import React from "react";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import injectSheet from "react-jss";
 
-import LandingPage from './LandingPage'
-import styles from './styles'
+import LandingPage from "./LandingPage";
+import styles from "./styles";
 
-const MainRouter = ({classes}) => (
+const MainRouter = ({ classes }) => (
   <Router>
     <main className={classes.ui}>
       <Switch>
@@ -15,6 +15,6 @@ const MainRouter = ({classes}) => (
       </Switch>
     </main>
   </Router>
-)
+);
 
-export default injectSheet(styles)(MainRouter)
+export default injectSheet(styles)(MainRouter);
