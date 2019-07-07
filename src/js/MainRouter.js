@@ -1,7 +1,7 @@
 import React from 'react'
 import {HashRouter as Router, Route, Switch} from 'react-router-dom'
 
-const LandingPage = props => <div>PHX 2084</div>
+import LandingPage from './LandingPage'
 
 export default function MainRouter() {
   return (
