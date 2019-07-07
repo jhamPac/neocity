@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function LandingPage() {
   return (
@@ -21,5 +21,5 @@ export default function LandingPage() {
         <li>no connections for upward mobility</li>
       </ul>
     </div>
-  );
+  )
 }
