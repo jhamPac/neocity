@@ -1,18 +1,20 @@
 import React from 'react'
 import {HashRouter as Router, Route, Switch} from 'react-router-dom'
+import injectSheet from 'react-jss'
 
 import LandingPage from './LandingPage'
+import styles from './styles'
 
-export default function MainRouter() {
-  return (
-    <Router>
-      <main id="UI" className="container">
-        <Switch>
-          <Route exact path="/">
-            <LandingPage />
-          </Route>
-        </Switch>
-      </main>
-    </Router>
-  )
-}
+const MainRouter = ({classes}) => (
+  <Router>
+    <main className={classes.ui}>
+      <Switch>
+        <Route exact path="/">
+          <LandingPage />
+        </Route>
+      </Switch>
+    </main>
+  </Router>
+)
+
+export default injectSheet(styles)(MainRouter)

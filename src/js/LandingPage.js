@@ -18,7 +18,7 @@ export default function LandingPage() {
         <li>credit (why no borrow?)</li>
         <li>low quality food (nutrients--)</li>
         <li>filtered, managed information</li>
-        <li></li>
+        <li>no connections for upward mobility</li>
       </ul>
     </div>
   )
