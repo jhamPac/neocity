@@ -25,6 +25,9 @@
     "url": "https://github.com/jhamPac/neocity/issues"
   },
   "homepage": "https://github.com/jhamPac/neocity#readme",
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
   "devDependencies": {
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
