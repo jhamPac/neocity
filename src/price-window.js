@@ -7,10 +7,10 @@ export default function PriceWindow({ coin }) {
         <Wrapper>
             <Window className="window">
                 <WindowHeader>
-                    <h2>{coin?.ticker?.base}</h2>
+                    <h2>{coin.ticker.base}</h2>
                 </WindowHeader>
                 <WindowContent>
-                    <p>{Number.parseFloat(coin?.ticker?.price).toFixed(2)}</p>
+                    <p>{Number.parseFloat(coin.ticker.price).toFixed(2)}</p>
                 </WindowContent>
             </Window>
         </Wrapper>
